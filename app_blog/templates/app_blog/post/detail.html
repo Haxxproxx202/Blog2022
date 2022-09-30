@@ -8,4 +8,9 @@
         Opublikowany {{ post.publish }} przez {{ post.author }}
     </p>
     {{ post.body|linebreaks }}
+    <p>
+        <a href="{% url 'app_blog:post_share' post.id %}">
+            Upload the post
+        </a>
+    </p>
 {% endblock %}
