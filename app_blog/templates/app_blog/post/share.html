@@ -9,8 +9,8 @@
             Uploading the post "{{ post.title }}" to {{ form.cleaned_data.to_who }} was successful.
         </p>
     {% else %}
-        <h1>Upload "{{ post.title }}" via e-mail</h1>
-        <form action=".", method="POST">
+        <h1>Send the post "{{ post.title }}" via e-mail to somebody</h1>
+        <form action="." method="POST">
             {{ form.as_p }}
             {% csrf_token %}
             <input type="submit" value="Send e-mail">
