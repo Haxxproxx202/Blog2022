@@ -4,6 +4,7 @@
     <list default="true" id="daa1888c-5337-4b6c-b809-90ec406f2eb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_blog/templates/app_blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_blog/templates/app_blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_blog/templatetags/blog_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_blog/templatetags/blog_tags.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <updated>1664656526494</updated>
       <workItem from="1664656532560" duration="31000" />
       <workItem from="1664656629537" duration="2347000" />
-      <workItem from="1664690501691" duration="15203000" />
+      <workItem from="1664690501691" duration="17573000" />
     </task>
     <servers />
   </component>
