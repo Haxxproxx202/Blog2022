@@ -7,6 +7,7 @@ from django.core.mail import send_mail
 from taggit.models import Tag
 from django.db.models import Count
 
+
 def post_list(request, tag_slug=None):
     object_list = Post.published.all()
     tag = None
@@ -16,6 +17,7 @@ def post_list(request, tag_slug=None):
         object_list = object_list.filter(tags__in=[tag])
     paginator = Paginator(object_list, 3)
     page = request.GET.get('page')
+    kkk = "aligator"
     try:
         posts = paginator.page(page)
     except PageNotAnInteger:
@@ -26,7 +28,9 @@ def post_list(request, tag_slug=None):
     return render(request,
                   'app_blog/post/list.html', {'posts': posts,
                                               'page': page,
-                                              'tags': tag})
+                                              'tags': tag,
+                                              'test': kkk})
+
 
 class PostListView(ListView):
     queryset = Post.published.all()
@@ -76,9 +80,9 @@ def post_share(request, post_id):
             post_url = request.build_absolute_uri(post.get_absolute_url())
             subject = '{} ({}) zachęca do przeczytania "{}"'.format(cd['name'], cd['email'], post.title)
             message = 'Read a post "{}" on  {}\n\nComment added bu {}: {}'.format(post.title,
-                                                                                                    post_url,
-                                                                                                    cd['name'],
-                                                                                                    cd['comments'])
+                                                                                  post_url,
+                                                                                  cd['name'],
+                                                                                  cd['comments'])
             send_mail(subject, message, 'admin@myblog.com', [cd['to_who']])
             sent = True
     else:
@@ -86,5 +90,7 @@ def post_share(request, post_id):
     return render(request, 'app_blog/post/share.html', {'post': post,
                                                         'form': form,
                                                         'sent': sent})
+
+
 
 

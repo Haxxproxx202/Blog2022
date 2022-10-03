@@ -16,6 +16,9 @@
     <div id="sidebar">
         <h2>Mój blog</h2>
         <p>This it my blog. I published {% total_posts %} posts as yet.</p>
+        <p>
+            <a href="{% url 'app_blog:post_feed' %}">Subscribe the RSS channel</a>
+        </p>
         <h3>The newest posts:</h3>
         {% show_latest_posts 4 %}
         <h3>The most commented posts:</h3>
@@ -27,6 +30,9 @@
             </li>
             {% endfor %}
         </ul>
+        <p>
+            {{ test|capfirst }}
+        </p>
     </div>
 </body>
 </html>

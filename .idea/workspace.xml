@@ -4,7 +4,14 @@
     <list default="true" id="daa1888c-5337-4b6c-b809-90ec406f2eb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_blog/templates/app_blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_blog/templates/app_blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_blog/templates/app_blog/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_blog/templates/app_blog/post/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_blog/templates/app_blog/post/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_blog/templates/app_blog/post/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_blog/templatetags/blog_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_blog/templatetags/blog_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -30,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/haxxproxx/Desktop/prework/book/Blog2022"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/haxxproxx/Desktop/prework/book/Blog2022&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Blog2022" type="Python.DjangoServer" factoryName="Django server">
       <module name="Blog2022" />
@@ -75,6 +82,7 @@
       <workItem from="1664656532560" duration="31000" />
       <workItem from="1664656629537" duration="2347000" />
       <workItem from="1664690501691" duration="17573000" />
+      <workItem from="1664813104838" duration="7428000" />
     </task>
     <servers />
   </component>
